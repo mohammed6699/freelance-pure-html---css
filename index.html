@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALhelali</title>
+    <link rel="stylesheet" href="style.css"/>
+    
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <!-- logo -->
+            <div class="logo">
+                <img src="/images/logo.PNG"/>
+                <h1></h1>
+            </div>
+            <!-- nav buttons -->
+            <nav class="nav-links">
+                <a href="#Home">Home</a>
+                <a href="#About">About Us</a>
+                <a href="#Services">Services</a>
+                <a href="#Location">Location</a>
+                <a href="#Contact">Conatct form</a>
+            </nav>
+            <!-- lang  -->
+             <div class="nav-actions">
+                <select class="lang-select">
+                    <option value="en">English</option>
+                    <option value="ar">العربية</option>
+                </select>
+                <a href="#" class="login-btn">Login</a>
+             </div>
+        </div>
+    </header>
+    <!-- hero section -->
+     <section class="hero" id="Home">
+        <div class="hero-content">
+            <h2>Partners in the past and present</h2>
+            <p>We build trust through our experience and our clients.</p>
+            <a class="btn-primary">Join Us</a>
+        </div>
+        <div class="hero-slider">
+            <img src="/images/image1.jpg" class="slide active" />
+            <img src="/images/image2.jpg" class="slide"/>
+            <img src="/images/image3.jpg" class="slide"/>
+            <img src="/images/image4.jpg" class="slide"/>
+        </div>
+     </section>
+     <!-- services section -->
+     <div class="floating-shape shape-1"></div>
+    <div class="floating-shape shape-2"></div>
+
+    <input type="checkbox" id="showMoreToggle" class="show-more-toggle">
+    
+    <section class="services-section" id="Services">
+        <div class="section-header">
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-subtitle">Comprehensive real estate solutions tailored to your needs</p>
+        </div>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="icon">🏢</div>
+                <h3>Real Estate Marketing</h3>
+                <p>We manage the entire development process—from land acquisition to the final delivery of residential, commercial, and mixed-use projects.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="icon">💰</div>
+                <h3>Real Estate Brokerage</h3>
+                <p>Acting as trusted intermediaries, we connect buyers and sellers, tenants and landlords with expertise and integrity.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="icon">🏗️</div>
+                <h3>Property Management</h3>
+                <p>Comprehensive oversight of leased properties, including tenant screening, rent collection, legal compliance, and regular financial reporting.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="icon">💵</div>
+                <h3>Real Estate Buying and Selling</h3>
+                <p>Facilitating smooth and legally sound Real Estate Buying and Selling transactions with professional guidance.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="icon">🤝</div>
+                <h3>Real Estate Operation</h3>
+                <p>Ensuring the continuous and effective running of occupied assets to maintain high tenant satisfaction and property performance.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="icon">👷</div>
+                <h3>Real Estate Development</h3>
+                <p>We manage the entire development process—from land acquisition, securing financing, architectural design, to final delivery.</p>
+            </div>
+
+            <!-- Hidden Services -->
+            <div class="service-card hidden">
+                <div class="icon">⚙️</div>
+                <h3>Facilities Management</h3>
+                <p>Managing the essential services and maintenance of a building to support functionality, safety, and sustainability.</p>
+            </div>
+
+            <div class="service-card hidden">
+                <div class="icon">🔨</div>
+                <h3>Real Estate Auctions</h3>
+                <p>Providing a transparent and efficient mechanism for the swift sale or acquisition of specific properties to achieve optimal market value.</p>
+            </div>
+
+            <div class="service-card hidden">
+                <div class="icon">📊</div>
+                <h3>Feasibility Study</h3>
+                <p>Comprehensive market, financial, and technical analysis to validate the viability and profitability of any proposed development project.</p>
+            </div>
+
+            <div class="service-card hidden">
+                <div class="icon">🏗️</div>
+                <h3>General Contracting</h3>
+                <p>Our dedicated construction division oversees all building activities, ensuring projects are delivered on time and within budget.</p>
+            </div>
+        </div>
+        <label for="showMoreToggle" class="show-more-btn"><span></span></label>
+    </section>
+    <!-- section buildings -->
+    <section class="building-section">
+        <div class="buildings-content">
+            <h2 class="section-title">Our Buildings</h2>
+            <p class="section-subtitle">We offer all the buildings type to match your needs</p>
+        </div>
+        <div class="building-section-container">
+        <div class="part-one">
+            <div class="buidlings-card">
+                <h4 class="buidlings-card-title">Residential Apartments for Rent</h4>
+                <img src="/images/key-solid-full.svg" alt="icon image" class="buidlings-card-icon"/>
+            </div>
+            <div class="buidlings-card">
+                <h4 class="buidlings-card-title">Residential Apartments for Sale</h4>
+                <img src="/images/money-bill-solid-full.svg" alt="icon image" class="buidlings-card-icon"/>
+            </div>
+            <div class="buidlings-card">
+                <h4 class="buidlings-card-title">Furnished Apartments for Investment</h4>
+                <img src="/images/couch-solid-full.svg" alt="icon image" class="buidlings-card-icon"/>
+            </div>
+            <div class="buidlings-card">
+                <h4 class="buidlings-card-title">Villas for Sale / Rent</h4>
+                <img src="/images/house-regular-full.svg" alt="icon image" class="buidlings-card-icon"/>
+            </div>
+            <div class="buidlings-card">
+                <h4 class="buidlings-card-title">Palace / Mansion for Sale</h4>
+                <img src="/images/place-of-worship-solid-full.svg" alt="icon image" class="buidlings-card-icon"/>
+            </div>
+            <div class="buidlings-card">
+                <h4 class="buidlings-card-title">House for Sale / Rent</h4>
+                <img src="/images/house-regular-full.svg" alt="icon image" class="buidlings-card-icon"/>
+            </div>
+            <div class="buidlings-card">
+                <h4 class="buidlings-card-title">Townhouse for Sale / Rent</h4>
+                <img src="/images/landmark-solid-full.svg" alt="icon image" class="buidlings-card-icon"/>
+            </div>
+            <div class="buidlings-card">
+                <h4 class="buidlings-card-title">Residential Building for Sale / Rent</h4>
+                <img src="/images/building-solid-full.svg" alt="icon image" class="buidlings-card-icon"/>
+            </div>
+            <div class="buidlings-card">
+                <h4 class="buidlings-card-title">Residential Apartments for Rent</h4>
+                <img src="/images/key-solid-full.svg" alt="icon image" class="buidlings-card-icon"/>
+            </div>
+            <div class="buidlings-card">
+                <h4 class="buidlings-card-title">Residential Apartments for Sale</h4>
+                <img src="/images/money-bill-solid-full.svg" alt="icon image" class="buidlings-card-icon"/>
+            </div>
+            <div class="buidlings-card">
+                <h4 class="buidlings-card-title">Furnished Apartments for Investment</h4>
+                <img src="/images/couch-solid-full.svg" alt="icon image" class="buidlings-card-icon"/>
+            </div>
+            <div class="buidlings-card">
+                <h4 class="buidlings-card-title">Villas for Sale / Rent</h4>
+                <img src="/images/house-regular-full.svg" alt="icon image" class="buidlings-card-icon"/>
+            </div>
+            <div class="buidlings-card">
+                <h4 class="buidlings-card-title">Palace / Mansion for Sale</h4>
+                <img src="/images/place-of-worship-solid-full.svg" alt="icon image" class="buidlings-card-icon"/>
+            </div>
+            <div class="buidlings-card">
+                <h4 class="buidlings-card-title">House for Sale / Rent</h4>
+                <img src="/images/house-regular-full.svg" alt="icon image" class="buidlings-card-icon"/>
+            </div>
+            <div class="buidlings-card">
+                <h4 class="buidlings-card-title">Townhouse for Sale / Rent</h4>
+                <img src="/images/landmark-solid-full.svg" alt="icon image" class="buidlings-card-icon"/>
+            </div>
+            <div class="buidlings-card">
+                <h4 class="buidlings-card-title">Residential Building for Sale / Rent</h4>
+                <img src="/images/building-solid-full.svg" alt="icon image" class="buidlings-card-icon"/>
+            </div>
+                       
+        </div>
+        </div>
+        <div class="building-section-container">
+        <div class="part-two">
+            <div class="buidlings-card">
+                <h4 class="buidlings-card-title">Building for Investment</h4>
+                <img src="/images/trending-up.svg" alt="icon image" class="buidlings-card-icon"/>
+            </div> 
+             <div class="buidlings-card">
+                <h4 class="buidlings-card-title">Room for Rent</h4>
+                <img src="/images/warehouse.svg" alt="icon image" class="buidlings-card-icon"/>
+            </div>
+            <div class="buidlings-card">
+                <h4 class="buidlings-card-title">Studio Apartment for Rent</h4>
+                <img src="/images/warehouse.svg" alt="icon image" class="buidlings-card-icon"/>
+            </div>
+            <div class="buidlings-card">
+                <h4 class="buidlings-card-title">Compound for Sale</h4>
+                <img src="/images/people-group-solid-full.svg" alt="icon image" class="buidlings-card-icon"/>
+            </div>
+            <div class="buidlings-card">
+                <h4 class="buidlings-card-title">Tower for Investment / Sale</h4>
+                <img src="/images/gopuram-solid-full.svg" alt="icon image" class="buidlings-card-icon"/>
+            </div>
+            <div class="buidlings-card">
+                <h4 class="buidlings-card-title">Farm for Investment / Sale</h4>
+                <img src="/images/farm.PNG" alt="icon image" class="buidlings-card-icon"/>
+            </div>
+            <div class="buidlings-card">
+                <h4 class="buidlings-card-title">Land for Investment</h4>
+                <img src="/images/land-plot.svg" alt="icon image" class="buidlings-card-icon"/>
+            </div>
+            <div class="buidlings-card">
+                <h4 class="buidlings-card-title">Raw Land / Undeveloped Land for Sale</h4>
+                <img src="/images/land-plot.svg" alt="icon image" class="buidlings-card-icon"/>
+            </div>
+            <div class="buidlings-card">
+                <h4 class="buidlings-card-title">Building for Investment</h4>
+                <img src="/images/trending-up.svg" alt="icon image" class="buidlings-card-icon"/>
+            </div> 
+             <div class="buidlings-card">
+                <h4 class="buidlings-card-title">Room for Rent</h4>
+                <img src="/images/warehouse.svg" alt="icon image" class="buidlings-card-icon"/>
+            </div>
+            <div class="buidlings-card">
+                <h4 class="buidlings-card-title">Studio Apartment for Rent</h4>
+                <img src="/images/warehouse.svg" alt="icon image" class="buidlings-card-icon"/>
+            </div>
+            <div class="buidlings-card">
+                <h4 class="buidlings-card-title">Compound for Sale</h4>
+                <img src="/images/people-group-solid-full.svg" alt="icon image" class="buidlings-card-icon"/>
+            </div>
+            <div class="buidlings-card">
+                <h4 class="buidlings-card-title">Tower for Investment / Sale</h4>
+                <img src="/images/gopuram-solid-full.svg" alt="icon image" class="buidlings-card-icon"/>
+            </div>
+            <div class="buidlings-card">
+                <h4 class="buidlings-card-title">Farm for Investment / Sale</h4>
+                <img src="/images/farm.PNG" alt="icon image" class="buidlings-card-icon"/>
+            </div>
+            <div class="buidlings-card">
+                <h4 class="buidlings-card-title">Land for Investment</h4>
+                <img src="/images/land-plot.svg" alt="icon image" class="buidlings-card-icon"/>
+            </div>
+            <div class="buidlings-card">
+                <h4 class="buidlings-card-title">Raw Land / Undeveloped Land for Sale</h4>
+                <img src="/images/land-plot.svg" alt="icon image" class="buidlings-card-icon"/>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Why Join Us Section -->
+    <section class="why-join-us-section" id="About">
+        <div class="central-circle">
+            <h2>Why Join Us</h2>
+        </div>
+        <div class="cards-container">
+            <div class="feature-card card-1">
+                <div class="card-icon"><img src="/images/gopuram-solid-full.svg"/></div>
+                <h3>Landmark Project Portfolio</h3>
+                <p>Build major, high-impact national infrastructure and city projects.</p>
+            </div>
+            <div class="feature-card card-2">
+                <div class="card-icon"><img src="/images/bullseye-solid-full.svg"/></div>
+                <h3>Visionary Strategic Planning</h3>
+                <p>Our clear strategy guarantees market leadership and sustained growth.</p>
+            </div>
+            <div class="feature-card card-3">
+                <div class="card-icon"><img src="/images/handshake (1).svg"/></div>
+                <h3>Elite Collaborative Team</h3>
+                <p>Work alongside the industry's most skilled engineers and professionals.</p>
+            </div>
+            <div class="feature-card card-4">
+                <div class="card-icon"><img src="/images/sparkle.svg"/></div>
+                <h3>Proven Track Record & Expertise</h3>
+                <p>Decades of experience building large-scale, complex, and iconic projects.</p>
+            </div>
+            <div class="feature-card card-5">
+                <div class="card-icon"><img src="/images/helmet-safety-solid-full.svg"/></div>
+                <h3>Commitment to Quality & Safety</h3>
+                <p>We uphold the highest standards for durable construction and security.</p>
+            </div>
+        </div>
+    </section>
+    <!-- real state -->
+    <section class="real-estate-section">
+        <div class="real-estate-content">
+            <h2 class="real-estate-title">From Foundation to Future</h2>
+            <p class="real-estate-subtitle">We don't just build structures; we build value. Our integrated approach combines visionary design, quality construction, and strategic management to create properties that stand the test of time and deliver lasting returns.</p>
+            <a href="#" class="btn-secondary">Explore Properties</a>
+        </div>
+    <section class="real-estate-image"></section>
+    </section>
+    <section id="future-real-estate">
+        <h2 class="section-title">The Future of Real Estate</h2>
+        <div class="feature-cards-container">
+            <div class="feature-card-item">
+                <img src="/images/lightbulb.svg" alt="Innovation Icon" class="feature-icon">
+                <h3 class="feature-title">Innovation</h3>
+                <p class="feature-description">We embrace cutting-edge technology and forward-thinking design to create intelligent, future-proof properties that redefine modern living.</p>
+            </div>
+            <div class="feature-card-item">
+                <img src="/images/chart-column-decreasing.svg" alt="Sustainability Icon" class="feature-icon">
+                <h3 class="feature-title">Sustainability</h3>
+                <p class="feature-description">Our commitment to green building practices ensures that our projects are environmentally responsible, energy-efficient, and built to last for generations.</p>
+            </div>
+            <div class="feature-card-item">
+                <img src="/images/user-round-cog.svg" alt="Client-Centric Icon" class="feature-icon">
+                <h3 class="feature-title">Client-Centric Approach</h3>
+            </div>
+        </div>
+    </section>
+    <section id="quality-craftsmanship-section">
+        <div class="quality-content">
+            <h2 class="quality-title">Uncompromising Quality, Unmatched Craftsmanship</h2>
+            <p class="quality-description">We believe that true quality is found in the details. From the finest materials to the most precise execution, our commitment to craftsmanship is unwavering. Our master builders and artisans pour their expertise and passion into every project, ensuring that each structure is not only built to last but is also a testament to our dedication to excellence.</p>
+            <a href="#" class="btn-tertiary">Learn More About Our Process</a>
+        </div>
+        <div class="quality-image-container">
+            <img src="/images/hammer.svg" alt="Craftsmanship Icon" class="quality-image">
+        </div>
+    </section>
+    <section id="marketing-brokerage-section">
+        <div class="container">
+            <h2 class="section-title">Real Estate Marketing & Brokerage</h2>
+            <p class="section-subtitle">Connecting buyers and sellers with expertise and integrity.</p>
+            <div class="marketing-brokerage-content">
+                <div class="marketing-brokerage-item">
+                    <img src="/images/saudi-riyal.svg" alt="Marketing Icon" class="marketing-brokerage-icon">
+                    <h3>Strategic Marketing</h3>
+                    <p>We create targeted marketing campaigns that showcase your property to the right audience, maximizing its visibility and appeal.</p>
+                </div>
+                <div class="marketing-brokerage-item">
+                    <img src="/images/signature.svg" alt="Brokerage Icon" class="marketing-brokerage-icon">
+                    <h3>Expert Brokerage</h3>
+                    <p>Our experienced brokers guide you through every step of the buying or selling process, ensuring a smooth and successful transaction.</p>
+                </div>
+                <div class="marketing-brokerage-item">
+                    <img src="/images/hand-coins.svg" alt="Investment Icon" class="marketing-brokerage-icon">
+                    <h3>Investment Advisory</h3>
+                    <p>We provide expert advice to help you make informed investment decisions and achieve your financial goals in the real estate market.</p>
+                </div>
+            </div>
+        </div>
+
+    <section id="marketing-brokerage-stats-section">
+        <h2 class="section-title">Our Impact in Numbers</h2>
+        <div class="stats-container">
+            <div class="stat-item">
+                <h3 class="stat-number">1200+</h3>
+                <p>Successful Deals</p>
+            </div>
+            <div class="stat-item">
+                <h3 class="stat-number">800+</h3>
+                <p>Properties Managed</p>
+            </div>
+            <div class="stat-item">
+                <h3 class="stat-number">95%</h3>
+                <p>Client Retention</p>
+            </div>
+        </div>
+    </section>
+    <section class="contact-section" id="Contact">
+        <div class="contact-form-container">
+            <h2 class="section-title">Get in Touch</h2>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+        </div>
+        <div class="contact-info-container">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p><strong>Phone:</strong> 8002444020</p>
+                <p><strong>whatsApp:</strong> +966530005630</p>
+                <p><strong>Email:</strong> info@alhelali.com</p>
+                <p><strong>Address:</strong> 123 Main Street, Riyadh, Saudi Arabia</p>
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.132159255248!2d46.675296515000005!3d24.71355198412498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f038d76c49569%3A0x6df3c7d4a9b8e3b!2sKingdom%20Centre!5e0!3m2!1sen!2ssa!4v167888605 Kingdom Centre" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <img src="/images/logo.PNG" alt="Company Logo" class="footer-logo">
+                <p>Your partner in building the future. We provide comprehensive real estate solutions with a focus on quality, innovation, and client satisfaction.</p>
+            </div>
+            <div class="footer-column">
+                <h3>Connect With Us</h3>
+                <div class="social-media-links">
+                    <a href="#"><img src="/images/facebook-brands-solid-full.svg" alt="Facebook"></a>
+                    <a href="#"><img src="/images/x-twitter-brands-solid-full.svg" alt="Twitter"></a>
+                    <a href="#"><img src="/images/square-instagram-brands-solid-full.svg" alt="Instagram"></a>
+                    <a href="#"><img src="/images/tiktok-brands-solid-full.svg" alt="LinkedIn"></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Properties</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="partners-logos">
+        <img src="/images/2030.png" alt="رؤية 2030" title="رؤية 2030">
+        <img src="/images/Ejar.JPG" alt="منصة إيجار" title="منصة إيجار">
+        <img src="/images/rega.png" alt="الهيئة العامة للعقار" title="الهيئة العامة للعقار">
+        <img src="/images/wafy.png" alt="وافي" title="وافي">
+        <img src="/images/ppow.jfif" alt="أفضل بيئة عمل سعودية" title="أفضل بيئة عمل سعودية">
+    </div>
+        <div class="copyright-notice">
+            <p>&copy; 2025 ALhelali. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
