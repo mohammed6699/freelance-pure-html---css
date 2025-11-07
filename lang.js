@@ -448,6 +448,7 @@ hamburgerMenu.addEventListener('click', () => {
 langSelect.addEventListener('change', (e) => {
   const lang = e.target.value;
   updateLanguage(lang);
+  updateServices(lang);
   updateBuildings(lang);
   updateFutureSection(lang);
   updateStatsSection(lang);
