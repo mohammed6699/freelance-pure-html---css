@@ -51,7 +51,7 @@ body {
     gap: 15px;
 }
 .lang-select{
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.2);
     color: white;
     border: 1px solid white;
     padding: 10px 5px;
@@ -67,6 +67,10 @@ body {
 }
 .login-btn:hover{
     background-color: #e07c00;
+}
+
+.lang-select option {
+  background-color: #003d8f;
 }
 /* hero section */
 .hero{
@@ -133,7 +137,7 @@ body {
 /* ========== SERVICES SECTION ========== */
 .services-section {
     max-width: auto;
-    margin: 10px auto;
+    margin: auto auto;
     background-color: rgb(233, 233, 233);
 }
 .section-header {
@@ -401,7 +405,31 @@ body {
         transform: translateX(0);
     }
 }
+html[dir="rtl"] .part-one {
+  animation-name: scroll-right-rtl;
+}
 
+html[dir="rtl"] .part-two {
+  animation-name: scroll-left-rtl;
+}
+
+@keyframes scroll-right-rtl {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(50%);
+  }
+}
+
+@keyframes scroll-left-rtl {
+  from {
+    transform: translateX(50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
 
 @keyframes float {
     0%, 100% {
@@ -602,6 +630,20 @@ body {
     height: 100%;
     z-index: 1;
     clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+html[dir="rtl"] .real-estate-section {
+    grid-template-columns: 1fr 1fr;
+}
+
+html[dir="rtl"] .real-estate-content {
+    text-align: left;
+    padding-left: 80px;
+    grid-column: 2;
+}
+
+html[dir="rtl"] .real-estate-image {
+    align-items: end;
 }
 /* Future of Real Estate Section */
 #future-real-estate {
