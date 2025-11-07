@@ -438,10 +438,10 @@ function updateStatsSection(lang) {
 
 
 const hamburgerMenu = document.querySelector('.hamburger-menu');
-const mobileNavLinks = document.querySelector('.mobile-nav-links');
+const navLinks = document.querySelector('.nav-links');
 
 hamburgerMenu.addEventListener('click', () => {
-  mobileNavLinks.classList.toggle('active');
+    navLinks.classList.toggle('active');
 });
 
 // Event listener for language change

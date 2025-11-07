@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #f9f9f9;
+    background-color: rgba(233, 233, 233, 0.3);
   color: #333;
 }
 .navbar{
@@ -72,6 +72,18 @@ body {
 }
 .login-btn:hover{
     background-color: #e07c00;
+}
+
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
 }
 
 .lang-select option {
@@ -142,8 +154,9 @@ body {
 /* ========== SERVICES SECTION ========== */
 .services-section {
     max-width: auto;
-    margin: auto auto;
-    background-color: rgb(233, 233, 233);
+    margin: 0 auto;
+    height: auto;
+    
 }
 .section-header {
     text-align: center;
@@ -274,7 +287,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50PX auto 0;
+    margin: 50px auto 40px;
     padding: 15px 50px;
     background: linear-gradient(145deg, #0077b6, #00b4d8);
     color: white;
@@ -287,8 +300,8 @@ body {
     box-shadow: 0 5px 20px rgba(0, 119, 182, 0.3);
     position: relative;
     overflow: hidden;
-    width: 500px;
-    margin-top: 40px;
+    width: auto;
+    max-width: 500px;
 }
 .show-more-btn::before {
     content: "";
@@ -348,14 +361,15 @@ body {
 }
 /* building section */
 .building-section{
-    margin-top: 100px;
     max-width: auto;
-    margin: 0 auto;
+    background-color: rgb(233, 233, 233);
+    padding: 80px 0;
 }
 
 .buildings-content{
   text-align: center;
-  margin-top: 10px;
+
+  
 }
 /* buidlings-card */
 .buidlings-card-title{
@@ -460,6 +474,7 @@ html[dir="rtl"] .part-two {
     min-height: 600px;
     padding: 50px 0;
     margin-top: 200px;
+    /* background-color: #e6eaf0; */
 }
 
 .central-circle {
@@ -1047,7 +1062,22 @@ footer {
     opacity: 0.7;
 }
 @media (max-width: 768px) {
-  .nav-links { display: none; }
+  .nav-links { 
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #003d8f;
+    padding: 20px;
+  }
+  .nav-links.active {
+    display: flex;
+  }
+  .hamburger-menu {
+    display: block;
+  }
   .hero {
     flex-direction: column;
     text-align: center;
@@ -1063,7 +1093,65 @@ footer {
     border-radius: 30px;
     height: 200px;
   }
-}
-.text{
-    font-size: medium;
+  .why-join-us-section {
+    margin-top: 50px;
+    padding: 20px;
+  }
+  .cards-container {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+  .feature-card {
+    position: static;
+    transform: none;
+    width: 100%;
+    max-width: 350px;
+    margin: 20px auto;
+  }
+  .central-circle {
+    position: relative;
+    margin: 20px auto 40px auto;
+    width: 150px;
+    height: 150px;
+    font-size: 1.2rem;
+  }
+  .real-estate-section {
+    grid-template-columns: 1fr;
+    padding: 40px 20px;
+  }
+  .real-estate-content {
+    padding-right: 0;
+    text-align: center;
+  }
+  .real-estate-image {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    clip-path: none;
+    margin-top: 30px;
+  }
+  #quality-craftsmanship-section {
+    grid-template-columns: 1fr;
+    padding: 40px 20px;
+  }
+  .quality-content {
+    padding-right: 0;
+    text-align: center;
+  }
+  .quality-image-container {
+    margin-top: 30px;
+  }
+  #marketing-brokerage-section .marketing-brokerage-content {
+    grid-template-columns: 1fr;
+  }
+  .contact-section {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+  .contact-form-container,
+  .contact-info-container {
+    width: 100%;
+    padding: 30px;
+  }
 }
