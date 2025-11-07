@@ -32,6 +32,11 @@ body {
     height: 50px;
     border-radius: 50%;
 }
+.logo p{
+    font-size: small;
+    /* background-color: red; */
+    max-width: 200px;
+}
 .nav-links{
     display: flex;
     gap: 20px;
